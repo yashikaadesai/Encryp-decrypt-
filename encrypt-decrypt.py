@@ -1,18 +1,4 @@
-##################################Algorithm####################################################################
-# 1. Define constants for punctuation and alphanumeric characters
-# 2. Define a function print_banner that takes a message as input and displays it as a banner.
-# 3. Define a function multiplicative_inverse that takes two integers A and M as input and returns the multiplicative inverse of A modulo M.
-# 4. Define a function check_co_prime that takes two integers num and M as input and returns True if num and M are co-prime, otherwise returns False.
-# 5. Define a function get_smallest_co_prime that finds the smallest coprime of a given number M.
-# 6. Define a function caesar_cipher_encryption that encrypts a character using the Caesar Cipher.
-# 7. Define a function caesar_cipher_decryption that decrypts a character using the Caesar Cipher.
-# 8. Define a function affine_cipher_encryption that encrypts a character using the Affine Cipher.
-# 9. Define a function affine_cipher_decryption that decrypts a character using the Affine Cipher.
-# 10. Define a function main that takes a rotation N as input and asks the user to input a command (e)ncrypt, (d)ecrypt, (q)uit.
-# 11. If the user inputs 'e', the program asks the user to input a string to encrypt.
-# 12. If the user inputs 'd', the program asks the user to input a string to decrypt.
-# 13. If the user inputs 'q', the program quits.
-#multiplicative_inverse takes two integers A and M as input and returns the multiplicative inverse of A modulo M.
+
 
 import math, string
 PUNCTUATION = string.punctuation
